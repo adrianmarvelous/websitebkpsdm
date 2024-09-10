@@ -1,0 +1,244 @@
+strong{
+	font-weight: bolder !important;
+}
+
+body{
+	background: #F5F7FC !important;
+    font-size: 1rem;
+}
+
+.carousel-caption{
+    text-align: center;
+    background: url('../images/trans.png');
+    font-size: 19px;
+    padding-left: 29px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #506690;
+    text-transform: uppercase;
+}
+
+.bg-dark{
+	background: #35265E !important;
+}
+.nav-link:hover{
+	/*background: #EDF1FC;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;*/
+    background-color: #35265E !important;
+    border-top-left-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+}
+
+.kategori-title{
+    border-bottom: 3px solid #CBD5EF;
+}
+a:hover{
+	color: #FCA326;
+	text-decoration: none
+}
+a{
+	color: #E24329;
+}
+.img-surabaya{
+    background: url('../images/trans-suroboyo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.slider-head{
+    padding-right: 0px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 15px 12px;
+  list-style: none;
+  background-color: #F7F7F7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.8rem;
+}
+
+.carousel-caption {
+    z-index: 0;
+}
+
+#welcome{
+	background: #FDFBEC;
+}
+p{
+	text-align: justify;
+}
+.teks-surabaya {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 3vw;
+    color: #ea5f00 !important;
+    text-transform: uppercase;
+    z-index: 1;
+    font-weight: bolder;
+}
+
+.jdl-head-search {
+    color: #E24329 !important;
+    font-size: 2rem;
+    padding: 1 0 0 1.3rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid #ea5f00;
+}
+.menu-atas{
+	border: 0 solid black;
+    display: flex;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    z-index: 5;
+    /* background-color: white !important; */
+    margin: 1rem 3rem 5rem 3rem;
+    max-width: 95.5%;
+    padding: 5px;
+    /*opacity: 0.9;*/
+}
+.form-control{
+	border: 1px solid #dddddd;
+}
+@media (max-width: 500px){
+    .menu-atas{
+        margin: 1rem 1rem 5rem 1rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1250px !important;
+    }
+}
+.dropdown-item+.dropdown-item {
+    margin-top: .1rem;
+}
+
+.dropdown-item{
+    padding: .4rem 1.75rem;
+}
+.dropdown-item:hover{
+    background: #EDF1FC;
+}
+
+.dropdown-link:hover{
+    color: #335de8;
+}
+.navbar-brand {
+    display: block;
+    max-width: 70%;
+}
+
+.tanggal{
+  color:#ffffff;
+}
+.custom_overlay_wrapper { position: relative; box-shadow: 7px 8px 8px 0px lightgrey; }
+
+.custom_overlay:nth-child(even) {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(53, 38, 94, .9);
+  opacity: 0;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+.custom_overlay:hover {
+  opacity: 0.8;
+}
+
+.custom_overlay_inner {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  right: 10px;
+    transform: translateY(-50%);
+}
+
+.custom_overlay h4 {
+  position: relative;
+  margin-bottom: 4px;
+  color: yellow;
+}
+
+.custom_overlay p { 
+  color: #ffffff;
+  line-height: 1.4em;
+}
+
+.custom_overlay h4:after {
+  background-color: red;
+  content: "";
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  bottom: 0;
+  height: 4px;
+}
+
+/*------------------- TABLET ------------------*/
+@media only screen and ( min-width: 600px ) and ( max-width: 999px ) {
+  .custom_overlay h4 { font-size: 80%;}
+  .custom_overlay p { 
+    font-size: 85%;
+    line-height: 1.2em;
+  }
+}
+
+/*------------------- MOBILE ------------------*/
+@media only screen and ( max-width: 599px ) {
+  .custom_overlay h4 { font-size: 100%;}
+  .custom_overlay p { font-size: 100%;}
+}
+.nav-link:hover{
+  color: #ffffff !important;
+}

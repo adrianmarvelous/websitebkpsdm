@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Sitemap: https://bkd.surabaya.go.id/sitemap.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap0.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap1.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap2.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap3.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap4.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap5.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap6.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap7.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap8.xml
+Sitemap: https://bkd.surabaya.go.id/sitemap9.xml

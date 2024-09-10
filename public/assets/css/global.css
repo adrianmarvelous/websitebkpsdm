@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.box {
+    display: none;
+}
+
+/* Set padding for navigation */
+.nav-padding {
+    padding: 0 100px; 
+}
+
+/* Set background color for navigation */
+.navbar-color {
+    background-color: #05254d;
+}
+.nav-text{
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/* Set width for navigation logo */
+.nav-logo {
+    width: 80px;
+}
+
+.primary-text-color{
+    color: #05254d;
+}
+.nav-item.dropdown .dropdown-toggle::after {
+    display: none;
+}
+.image-slider-up{
+    margin-top: -30vh;
+    height: 100vh;
+}
+.judul-info-penting{
+    color: #05254d;
+}
+.custom-prev{
+    width: 50px;
+    /* height: 100px; */
+    border-radius: 40px;
+    background-color:#05254d;
+    margin-left:-5%;
+    /* margin-top: 110px; */
+}
+.custom-next{
+    width: 50px;
+    /* height: 100px; */
+    border-radius: 40px;
+    background-color:#05254d;
+    margin-right:-5%;
+    /* margin-top: 110px; */
+}
+.button-light {
+    padding: 0.8rem 1.5rem; /* Adjusted padding */
+    background-color: #f0f0f0; /* Default background color */
+    color: #333; /* Default text color */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    border: none; /* Remove border */
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow for a lifted effect */
+}
+
+.button-light:hover {
+    background-color: #05254d; /* Background color on hover */
+    color: #f0f0f0; /* Text color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover for elevation effect */
+}
+.button-dark {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem; /* Adjusted padding */
+    background-color: #05254d; /* Default background color */
+    color: #f0f0f0; /* Default text color */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    border: none; /* Remove border */
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow for a lifted effect */
+}
+
+.button-dark:hover {
+    background-color: #8A91DB; /* Background color on hover */
+    color: #05254d; /* Text color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover for elevation effect */
+}
+
+
+
+/* Set background image for home section */
+.bg-home-atas {
+    background-image: url('{{ asset('assets/images/backgrounds/bg web bkpsdm 2.png') }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:100vh;
+    color:white;
+    /* z-index: -1; */
+}
+.header-1{
+    padding: 200px 0 0 100px;
+}
+.container-edit{
+    /* padding: 0px 200px 0px 200px; */
+    width: 90vw;
+    margin-top: 20px;
+    /* z-index: -1; */
+}
+.selamat-datang-card{
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    font-weight: bold;
+}
+
+.video-slider{
+    background-image: url('{{ asset('assets/images/backgrounds/bg web bkpsdm 2.png') }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:100%;
+    margin-top: 50px;
+    /* z-index: -1; */
+}
+.video-slider-header{
+    background-color: #373dd4;
+    color: white;
+    /* padding: 20px; */
+    text-align: center;
+    border-radius: 40px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.wider-container{
+    max-width: 1600px;
+    padding: 0px;
+    /* margin: 0px; */
+}
+.container-layanan{
+    border-radius: 20px;
+    background: linear-gradient(to top, #1417d4, #8c52ff);
+    padding:20px
+}
+.layanan-card{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.footer-container {
+    background-color:#05254d;
+}
+
+.image-container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover {
+    transform: scale(1.1); /* Increases the size of the div to 110% */
+}
+
+#myCarousel {
+    margin-top: 50px;
+  }
+
+/* Ensure first submenu is always displayed on mobile devices */
+@media (max-width: 992px) {
+    .navbar-nav .dropdown-menu.first-submenu {
+        display: block !important;
+        position: static;
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+
+    /* Second submenu remains collapsible */
+    .navbar-nav .dropdown-menu.second-submenu {
+        display: none;
+    }
+
+    .navbar-nav .dropdown-submenu:hover .dropdown-menu.second-submenu {
+        display: block;
+        position: static;
+        float: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+}
+@media (max-width: 768px) {
+    .image-container {
+        width: 100%; /* Make each div take full width on smaller screens */
+        margin-bottom: 10px; /* Add space between images on mobile view */
+    }
+}
+@media (max-width: 600px) {
+    .header-1{
+        padding: 120px 0 0 50px;
+    }
+    .foto-prigen-1{
+        width: 70vw;
+    }
+    .nav-padding{
+        padding: 20px;
+    }
+  }
+  @media (max-width: 1200px){
+    .image-slider-up{
+        margin-top: 0px;
+        height: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .carousel-inner-1 .carousel-item-1 > div {
+      display: none;
+    }
+
+    .carousel-inner-1 .carousel-item-1 > div:first-child {
+      display: block;
+    }
+  }
+
+  .carousel-inner-1 .carousel-item.active,
+  .carousel-inner-1 .carousel-item-start,
+  .carousel-inner-1 .carousel-item-next,
+  .carousel-inner-1 .carousel-item-prev {
+    display: flex;
+  }
+
+  @media (min-width: 768px) {
+    .carousel-2 .carousel-inner-1 .carousel-item-right.active,
+    .carousel-2 .carousel-inner-1 .carousel-item-next,
+    .carousel-2 .carousel-item-next:not(.carousel-item-start) {
+      transform: translateX(25%) !important;
+    }
+
+    .carousel-2 .carousel-inner-1 .carousel-item-left.active,
+    .carousel-2 .carousel-item-prev:not(.carousel-item-end),
+    .carousel-2 .active.carousel-item-start,
+    .carousel-2 .carousel-item-prev:not(.carousel-item-end) {
+      transform: translateX(-25%) !important;
+    }
+
+    .carousel-2 .carousel-item-next.carousel-item-start,
+    .carousel-2 .active.carousel-item-end {
+      transform: translateX(0) !important;
+    }
+
+    .carousel-2 .carousel-inner-1 .carousel-item-prev,
+    .carousel-2 .carousel-item-prev:not(.carousel-item-end) {
+      transform: translateX(-25%) !important;
+    }
+  }

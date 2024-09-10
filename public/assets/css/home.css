@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playpen+Sans:wght@500&display=swap');
+.title-container{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.icon-home{
+    background-color:#fad776;
+    /* padding: 100px; */
+}
+.desc-slider{
+    font-size: 48px;
+    color: yellow;
+    font-weight:bold;
+    font-family: 'Fuggles', cursive;
+}
+.desc{
+    margin-top: -50px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-icon{
+    border-radius: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    transition: 0.3s;
+}
+.card-icon:hover{
+    scale: 1.1;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.card-judul{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.home-icon{
+    width: 50px;
+    height: 50px;
+}
+.info-penting{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* justify-content: center; */
+    flex-direction: column;
+    background: linear-gradient(to top, #fad776, #f6f8fc);
+}
+.pengumuman-guru-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sumber-guru{
+    
+    /* padding: 40px 100px 50px 100px; */
+    width: 600px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 40px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 239, 188);
+    color: #1040a0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    /* font-size: 36px; */
+    font-family: 'Playpen Sans', cursive;
+    transition: 0.3s;
+}
+.sumber-guru:hover{
+    scale: 1.1;
+}
+.judul-hasil{
+    font-size: 24px;
+}
+.pengumuman-guru{
+    width: 500px;
+    height: 500px;
+    /* margin-bottom:30px */
+}
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+.info-penting-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.info-penting-card{
+    margin: 30px;
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+.pengumunan{
+    width: 100%;
+}
+.pengumuman-title{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #2e3192;
+    font-weight: bold;
+}
+.card-pengumuman-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-pengumuman{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(255, 239, 188);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.card-pengumuman:hover{
+    scale: 1.1;
+}
+.card-title-pengumuman{
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 90%;
+    color: #404040;
+}
+.pengumuman-lain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 100px;
+}
+.title-pengumuman-lain{
+    text-align: center;
+    font-size: 52px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3e2a11;
+}
+.gambar-pengumuman-lain{
+    width: 80%;
+}
+.judul-card{
+    color: #404040;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.institusi-tautan{
+    padding: 50px;
+    display: flex;
+    text-align: center  ;
+    flex-direction: column;
+    background: linear-gradient(to top, #fad776, #fad776);
+}
+.card-institusi-tautan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-institusi{
+    background-color: rgb(255, 239, 188);
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.card-institusi:hover{
+    scale: 1.1;
+}
+.icon-institusi{
+    width: 150px;
+    padding: 10px;
+}
+.title-institusi-tautan{
+    text-align: center;
+    font-size: 24px;
+}
+.title-pengumuman-container{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.type-pppk{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card-pppk{
+    margin: 20px;
+    width: 350px;
+    /* height: 180px; */
+    border-radius: 10px;
+    background-color: #ffefbc;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.title-pppk{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+.title-lainnya{
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.faq-img-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.lampiran-lainnya{
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+.label-qna{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title-footer{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fad776;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer-berita{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.content-footer{
+    color: white;
+}
+.video-home{
+    width: 600px;
+}
+.footer-kontak{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-icon-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+}
+.footer-icon{
+    color: black;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+.footer-icon:hover{
+    background-color: #fad776;
+    color: var(--col);
+}
+.berakhlak-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.berakhlak-gambar{
+    width: 30%;
+}
+
+@media (max-width: 600px) {
+    .title{
+        font-size: 38px;
+    }
+    .desc{
+        margin-top: -20px;
+    }
+    .title-container{
+        font-size: 24px;
+    }
+    .title-lainnya{
+        font-size: 20px;
+    }
+    .info-penting{
+        display: flex;
+        justify-content: center;
+    }
+    .pengumuman-guru{
+        width: 90vw;
+	height: 330px;
+        padding: 10px;
+    }
+    .pengumuman-lain{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .video-home{
+        width: 80vw;
+    }
+    .sumber-guru{
+        font-size: 18px;
+        width: 90vw;
+        padding: 10px;
+    }
+    .video-bermedsos{
+        width: 70vw;
+    }
+    .judul-hasil{
+    padding: 10px;
+    }
+    
+    .pengumuman-guru-container{
+        flex-direction: column;
+    }
+    .berakhlak-gambar{
+        width: 95vw;
+    }
+  }
